@@ -1,0 +1,56 @@
+{
+    "name": "berraisabdelaziz/craft-helpers",
+    "description": "The plugin provides functions, which allow to read and convert JSON, YAML, CSV and PHP file contents. Using the readText or inline function you can read an entire file into a string.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft-helpers"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shakebiz",
+            "homepage": "https://github.com/berraisabdelaziz"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0",
+        "danielstjules/stringy": "^3.1",
+        "kwn/number-to-words": "^1.3",
+        "league/csv": "^8.2",
+        "symfony/yaml": "^3.3"
+    },
+    "require-dev": {
+      "craftcms/cms": "^3.2.0",
+      "codeception/codeception": "^3.0",
+      "vlucas/phpdotenv": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "berraisabdelaziz\\crafthelpers\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "craft-helpers",
+        "handle": "craft-helpers",
+        "developer": "Shakebiz",
+        "developerUrl": "https://github.com/berraisabdelaziz",
+        "documentationUrl": "???",
+        "changelogUrl": "???",
+        "components": {
+            "helpersNumberService": "berraisabdelaziz\\crafthelpers\\services\\HelpersNumberService",
+            "helpersFileService": "berraisabdelaziz\\crafthelpers\\services\\HelpersFileService",
+            "helpersMiscService": "berraisabdelaziz\\crafthelpers\\services\\HelpersMiscService",
+            "helpersStringService": "berraisabdelaziz\\crafthelpers\\services\\HelpersStringService"
+        },
+        "class": "berraisabdelaziz\\crafthelpers\\Crafthelpers"
+    }
+}
