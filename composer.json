@@ -11,8 +11,8 @@
         "craft-helpers"
     ],
     "support": {
-        "docs": "???",
-        "issues": "???"
+        "docs": "https://github.com/berraisabdelaziz",
+        "issues": "https://github.com/berraisabdelaziz/craft-helpers/issues"
     },
     "license": "MIT",
     "authors": [
@@ -43,8 +43,8 @@
         "handle": "craft-helpers",
         "developer": "Shakebiz",
         "developerUrl": "https://github.com/berraisabdelaziz",
-        "documentationUrl": "???",
-        "changelogUrl": "???",
+        "documentationUrl": "https://github.com/berraisabdelaziz/craft-helpers",
+        "changelogUrl": "https://github.com/berraisabdelaziz/craft-helpers",
         "components": {
             "helpersNumberService": "berraisabdelaziz\\crafthelpers\\services\\HelpersNumberService",
             "helpersFileService": "berraisabdelaziz\\crafthelpers\\services\\HelpersFileService",
