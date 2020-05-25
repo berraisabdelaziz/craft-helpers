@@ -1,7 +1,7 @@
 # Helpers plugin for Craft CMS
 
-A collection of Twig functions.
-
+A collection of Twig functions. this plugin is craft 3 plugin, this plugin is an update of the craft 2
+ modules https://github.com/carlcs/craft-helpers
 ## Installation
 
 The plugin is available on Packagist and can be installed using Composer. You can also download the [latest release][1] and copy the files into craft/plugins/helpers/.
