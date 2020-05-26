@@ -14,6 +14,9 @@ use berraisabdelaziz\crafthelpers\Crafthelpers;
 
 use Craft;
 use craft\base\Component;
+use League\Csv\Reader;
+use Symfony\Component\Yaml\Yaml;
+use Symfony\Component\Yaml\Exception\ParseException;
 
 /**
  * HelpersFileService Service
