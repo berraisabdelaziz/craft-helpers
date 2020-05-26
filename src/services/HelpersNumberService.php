@@ -15,6 +15,9 @@ use berraisabdelaziz\crafthelpers\Crafthelpers;
 use Craft;
 use craft\base\Component;
 
+use NumberToWords\NumberToWords;
+
+
 /**
  * HelpersNumberService Service
  *
